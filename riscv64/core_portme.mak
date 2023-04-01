@@ -21,7 +21,7 @@
 RISCVTOOLS=$(RISCV)
 # Flag: RISCVTYPE
 #   Type of toolchain to use
-RISCVTYPE=riscv64-unknown-elf
+RISCVTYPE=riscv64-unknown-linux-gnu
 # Flag: OUTFLAG
 #	Use this flag to define how to to get an executable (e.g -o)
 OUTFLAG= -o
